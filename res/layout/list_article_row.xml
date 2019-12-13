@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/icon"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_round_rect_line"
+    android:orientation="vertical"
+    android:paddingRight="3dip" >
+
+    <TextView
+        android:id="@+id/list_row_loading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/loading"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:id="@+id/list_row_data_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingBottom="1dip"
+        android:paddingTop="3dip" >
+
+        <TextView
+            android:id="@+id/list_row_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_pressed_selector"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/solid_blue"
+            android:typeface="serif" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+             android:layout_marginLeft="10dip"
+             android:layout_marginRight="15dip"
+             
+            android:background="#33CCCC" />
+
+        <TextView
+            android:id="@+id/list_row_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="10dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/gray" />
+    </LinearLayout>
+
+</RelativeLayout>

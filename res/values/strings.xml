@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Medical Topics</string>
+     <string name="app_name_list_article">Search...</string>
+    <string name="search">Search</string>
+    <string name="loading">loading...</string>
+    
+    
+    <string name="search_term_hint">Enter keywords, ex. cancer</string>
+
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="disclaimer_message">        
+        The data is retrieved from the MedlinePlus web service. 
+        Check with your health care provider to discuss your questions 
+        and get the information that is right for you.
+
+         \nThe app does not warrant or assume any legal liability or responsibility
+          for the accuracy, completeness, or usefulness of any information, 
+          apparatus, product, or process disclosed. 
+          By accessing this app, you expressly agree that use of the
+           service is at your sole risk.
+    </string>    
+    
+</resources>
